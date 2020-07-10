@@ -19,7 +19,7 @@ by Google
 	* Example
 		<p align="center">
 		  <a href="javascript:void(0)" rel="noopener">
-		 <img width=600px  src="subject_predicate_example_image1.jpg" alt="subject_predicate_example_image1"></a>
+		 <img width=600px  src="notesImages/subject_predicate_example_image1.jpg" alt="subject_predicate_example_image1"></a>
 		</p>
 	* In Programming language, **Syntax** is the rules for how each instruction is written
 	* **Semantics** is the effect the instructions have
@@ -50,7 +50,7 @@ by Google
 * Example
 	<p align="center">
 	  <a href="javascript:void(0)" rel="noopener">
-	 <img width=600px  src="python_code_example_image2.jpg" alt="python_code_example_image2"></a>
+	 <img width=600px  src="notesImages/python_code_example_image2.jpg" alt="python_code_example_image2"></a>
 	</p>
 * In programming, an **interpreter** is the program that reads and executes code
 * The Python interpreter is the program that reads what is in the recipe and translates it into instructions for your computer to follow
@@ -83,7 +83,7 @@ by Google
 * Example
 	<p align="center">
 	  <a href="javascript:void(0)" rel="noopener">
-	 <img width=600px  src="other_languages_exmaple_image3.jpg" alt="other_languages_exmaple_image3"></a>
+	 <img width=600px  src="notesImages/other_languages_exmaple_image3.jpg" alt="other_languages_exmaple_image3"></a>
 	</p>
 
 ### Hello World
