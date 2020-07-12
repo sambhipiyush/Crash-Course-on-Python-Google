@@ -267,11 +267,11 @@ by Google
 	>>>		name = 'piglet'
 	>>> 	years = 0
 	>>> 	def speak(self):
-	>>>			"""Outputs a message including the name of the piglet."""
+	>>> 		"""Outputs a message including the name of the piglet."""
 	>>> 		print("Oink! I'm {}! Oink!".format(self.name))
 	>>> 
 	>>> 	def pig_years(self):
-	>>>			"""Converts the current age to equivalent pig years."""
+	>>> 		"""Converts the current age to equivalent pig years."""
 	>>> 		return self.years * 18
 	>>>
 	>>> help(Piglet)
