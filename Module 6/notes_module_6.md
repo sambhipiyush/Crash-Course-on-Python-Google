@@ -42,26 +42,26 @@ by Google
 > Separating functions is helpful when debugging or making other changes, as it keeps functions from getting ‘tangled’. It also makes it easier to adapt functions for other uses
 
 ```python
-def get_event_date(event):
-	return event.date
-
-def current_users(events):
-	events.sort(key=get_event_date)
-	machines = {}
-	for event in events:
-		if event.machien not in machines:
-			machines[event.machine] = set()
-		if event.type == 'login':
-			machines[event.machine].add(event.user)
-		elif event.type == 'logout':
-			machines[event.machine].remove(event.user)
-	return machines
-
-def generate_report(machines):
-	for machine, users in machines.items():
-		if len(users) > 0:
-			user_list = ", ".join(users)
-			print('{}: {}'.format(machine, user_list))
+>>> def get_event_date(event):
+>>> 	return event.date
+>>> 
+>>> def current_users(events):
+>>> 	events.sort(key=get_event_date)
+>>> 	machines = {}
+>>> 	for event in events:
+>>> 		if event.machien not in machines:
+>>> 			machines[event.machine] = set()
+>>> 		if event.type == 'login':
+>>> 			machines[event.machine].add(event.user)
+>>> 		elif event.type == 'logout':
+>>> 			machines[event.machine].remove(event.user)
+>>> 	return machines
+>>> 
+>>> def generate_report(machines):
+>>> 	for machine, users in machines.items():
+>>> 		if len(users) > 0:
+>>> 			user_list = ", ".join(users)
+>>> 			print('{}: {}'.format(machine, user_list))
 ```
 
 ### Final Project
