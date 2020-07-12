@@ -215,7 +215,7 @@ by Google
 * By defining the special STR method, we're telling Python that we want it to display when the print function is called with an instance of our class
 	```python
 	>>> class Apple:
-	>>>		def __init__(self, color, flavor):
+	>>> 	def __init__(self, color, flavor):
 	>>> 		self.color = color
 	>>> 		self.flavor = flavor
 	>>>
@@ -233,7 +233,7 @@ by Google
 * Using Help method on User Defined Class
 	```python
 	>>> class Apple:
-	>>>		def __init__(self, color, flavor):
+	>>> 	def __init__(self, color, flavor):
 	>>> 		self.color = color
 	>>> 		self.flavor = flavor
 	>>>
