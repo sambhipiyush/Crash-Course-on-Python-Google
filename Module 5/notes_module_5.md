@@ -344,8 +344,8 @@ by Google
 		```python
 		>>> class Animal:
 		>>> 	sound = ''
-		>>>		def __init__(self, name)
-		>>>			self.name = name
+		>>> 	def __init__(self, name)
+		>>> 		self.name = name
 		>>> 
 		>>> 	def speak(self):
 		>>> 		print("{sound}! I'm {name}! {sound}".format(name=self.name, sound=self.sound))
@@ -353,14 +353,14 @@ by Google
 		>>> class Piglet(Animal):
 		>>> 	sound = 'Oink!'
 		>>> 
-		>>>	hamlet = Piglet('Hamlet') 
+		>>> hamlet = Piglet('Hamlet') 
 		>>> hamlet.speak()
 			Oink! I'm Hamlet! Oink!
 		>>>
 		>>> class Cow(Animal):
 		>>> 	sound = 'Moooo!'
 		>>>
-		>>>	milky = Cow('Milky White')
+		>>> milky = Cow('Milky White')
 		>>> milky.speak()
 			Moooo! I'm Milky White! Moooo!
 		```
