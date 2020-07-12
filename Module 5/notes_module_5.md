@@ -325,7 +325,7 @@ by Google
 		>>> 	pass
 		>>>
 		>>> class Grape(Fruit):
-		>>>		pass
+		>>> 	pass
 		>>>
 		```
 	* Think of fruit class as the parent class, and the apple and grape classes as siblings
