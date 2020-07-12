@@ -140,7 +140,7 @@ by Google
 		```
 		```python
 		>>> class Piglet:
-		>>>		name = 'piglet'
+		>>> 	name = 'piglet'
 		>>> 	def speak(self):
 		>>> 		print("Oink! I'm {}! Oink!".format(self.name))
 		>>> 
@@ -161,7 +161,7 @@ by Google
 	>>> class Dog:
 	>>> 	years = 0
 	>>> 	def dog_years(self):
-	>>> 	return self.years * 7
+	>>> 		return self.years * 7
 	>>> 		
 	>>> fido=Dog()
 	>>> fido.years=3
@@ -175,7 +175,7 @@ by Google
 	* It's always named `__init__`
 		```python
 		>>> class Apple:
-		>>>		def __init__(self, color, flavor):
+		>>> 	def __init__(self, color, flavor):
 		>>> 		self.color = color
 		>>> 		self.flavor = flavor
 		>>>
@@ -204,7 +204,7 @@ by Google
 * When we don't specify a way to print an object, Python uses the default method that prints the position where the object is stored in the computer's memory
 	```python
 	>>> class Apple:
-	>>>		def __init__(self, color, flavor):
+	>>> 	def __init__(self, color, flavor):
 	>>> 		self.color = color
 	>>> 		self.flavor = flavor
 	>>>
