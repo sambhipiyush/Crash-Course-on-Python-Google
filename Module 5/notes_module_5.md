@@ -317,7 +317,7 @@ by Google
 	* For our new fruit classes, we've used that syntax to tell our computer that both the apple and the grape classes inherit from the fruit class. Because of this, they automatically have the same constructor, which sets the color and flavor attributes
 		```python
 		>>> class Fruit:
-		>>>		def __init__(self, color, flavor):
+		>>> 	def __init__(self, color, flavor):
 		>>> 		self.color = color
 		>>> 		self.flavor = flavor
 		>>>
